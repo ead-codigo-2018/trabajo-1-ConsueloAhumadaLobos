@@ -1,0 +1,65 @@
+/*Estilos de la Grilla*/
+.container {
+  display: grid;
+  background-color: #fdafab
+  grid-template-columns: 20% auto;
+  grid-template-rows: 120px 350px 120px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  grid-column-gap: 5px;
+  grid-row-gap: 8px;
+}
+.navigation {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-column-end: 4;
+}
+.sidebar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.article {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+
+/* Estilos Auxiliares */
+.navigation {
+  background-color: #FCD2D2
+}
+.sidebar {
+  background-color: #EBEBEB
+}
+.article {
+  background-color: #EBEBEB
+}
+h2 {
+  padding: 12px;
+  color: black;
+  font-family: 'Source Serif Pro', serif;
+}
+img {
+  width: 300px;
+  padding: 20px;
+  margin-left: 60px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+a{
+padding: 40px;
+border: 20px;
+}
+p {
+  padding: 20px;
+  font-family: 'EB Garamond', serif;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+}
